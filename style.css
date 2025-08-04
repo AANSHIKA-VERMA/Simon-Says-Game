@@ -40,6 +40,21 @@ h1{
     justify-content: center;
 }
 
+@media screen and (max-width: 800px) {
+    .btn{
+        height: 150px;
+        width: 150px;
+    }
+} 
+
+@media screen and (max-width: 500px) {
+    .btn{
+        height: 130px;
+        width: 130px;
+        margin: 1.5rem;
+    }
+} 
+
 .red{
     background-color: rgb(210, 47, 47);
 }
